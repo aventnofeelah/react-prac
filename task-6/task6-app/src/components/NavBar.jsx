@@ -17,8 +17,8 @@ export default function NavBar() {
   return (
     <nav style={{ display: "flex", justifyContent: "space-between", padding: "1rem", background: "#f0f0f0" }}>
       <div>
-        <Link to="/profile" style={{ marginRight: "1rem" }}>Task 6 App</Link>
-        {currentUser && <Link to="/todos">Tasks</Link>}
+        <Link to="/profile" style={{ marginRight: "1rem" }}>My App</Link>
+        {currentUser && <Link to="/requests">Requests</Link>}
       </div>
       <div>
         {currentUser ? (
